@@ -1,0 +1,7 @@
+seleniumserver:
+    image: java-selenium:latest
+    working_dir: /workspace
+    ports:
+       - 4444:4444
+    volumes:
+        - ./:/workspace
